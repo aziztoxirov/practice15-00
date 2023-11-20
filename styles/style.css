@@ -19,3 +19,13 @@ h2 {
     color: white;
     text-transform: uppercase;
 }
+
+
+.main {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    clip-path: polygon(0 0, 100% 0, 100% 74%, 0% 100%);
+}
